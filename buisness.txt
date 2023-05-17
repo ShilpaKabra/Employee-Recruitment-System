@@ -1,0 +1,33 @@
+Buisness Entity and Buisness Operations:
+
+Employee Recruitment System:-
+
+Candidate:candidate ID, name, address, contact information, education, work expirence, skills, Applyed PositionId
+
+JobDetails:position ID, title, description, and possibly salary information.
+
+
+Candidate:
+CandID (primary key)
+First Name
+Last Name
+Contact Number
+Address
+Education
+WorkExp
+Skills
+ApplyPositionId(foreign key)
+
+JobDetails:
+PositionID(primary key)
+Title
+Description
+Salary
+
+
+
+
+
+
+
+

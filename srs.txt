@@ -1,0 +1,67 @@
+
+Software Requirements Specification (SRS) Document: Employee Recruitment System
+
+1. Introduction
+   1.1 Purpose
+   The purpose of this document is to provide a detailed description of the requirements for the Employee Recruitment System. It outlines the functional and non-functional requirements, constraints, and interfaces of the system.
+
+   1.2 Scope
+   The Employee Recruitment System is a web-based application that allows jobseekers to register online , view organization requirments, and apply for suitable job. The system will provide facilities where propective candidate can upload their CV, apply for jobs suitable or them, and centralized solution for managing recruitment-related tasks.
+
+2. Functional Requirements:
+
+   2.1 Candidate Information Management
+      - Candidate should be able to add, update, and delete their records.
+      - Each candidate record should include details such as name, contact information, Education, Work Experience, Skills .
+      - The system should store and display candidate photos, CV if available
+  
+   2.1 Organization Staffing Requirement Managment
+      - Organizations should be able to post their staffing requirements
+      - Organizations should be able to view profles of interested candidates
+      - Organizations should be able to add, update, delete posted requirements
+
+   2.2 Notifications and Reminders
+      - The system should send notifications and reminders to candidates for new job opening, status on submitted job application or other important events.
+      - The system should send notifications to Organization for new registered candidate profile for specific job posted by them.
+      - Notifications can be delivered via email, SMS, or through the system's user interface.
+
+3. Non-functional Requirements
+   3.1 Security
+      - candidate data should be securely stored and accessible only to authorized personnel.
+      - User authentication and access control mechanism should be implemented.
+      - Sensitive information such as passwords should be stored using encryption.
+
+   3.2 Performance
+      - The system should handle concurrent user requests without significant performance degradation.
+      - The response time for retrieving candidate records, CV, viewing profile should be minimal.
+
+   3.3 Usability
+      - The user interface should be intuitive and user-friendly.
+      - The system should provide clear and informative error messages.
+      
+4. Constraints
+   - The Employee Management System will be developed using a web-based architecture.
+   - The system should be compatible with popular web browsers such as Chrome, Firefox, and Safari.
+   - The system should be responsive and accessible on different devices (desktops, tablets, mobile phones).
+
+5. Interfaces
+   - User Interface: The system will provide a web-based user interface for administrators, managers, and candidates to interact with.
+   - Database: The system will interact with a database to store and retrieve candidate information, Staffing requirement.
+
+6. Glossary
+   - SRS: Software Requirements Specification
+   - UI: User Interface
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
